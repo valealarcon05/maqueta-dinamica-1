@@ -1,0 +1,36 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Administración</h1>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            {{card.title}}
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+
+            <h5>Foto perfil</h5>
+            <div class="mb-3">
+              <input type="file" class="form-control" aria-label="file example" required>
+              <div class="invalid-feedback">Debes agregar una imagen</div>
+            </div>
+            <h5>Banner</h5>
+            <div class="mb-3">
+              <input type="file" class="form-control" aria-label="file example" required>
+              <div class="invalid-feedback">Debes agregar una imagen</div>
+            </div>
+            <h5>Tu nombre</h5>
+            <div class="input-group">
+              <span class="input-group-text">Nombres y Apelllidos</span>
+              <input type="text" aria-label="First name" class="form-control">
+              <input type="text" aria-label="Last name" class="form-control">
+            </div>
+            <h5>Profesión</h5>
+            <input class="form-control" type="text" placeholder="Título" aria-label="default input example">
+
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

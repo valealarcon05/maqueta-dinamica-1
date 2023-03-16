@@ -24,6 +24,9 @@
     width: 100%;
     height: 70vh;
 }
+#Bienvenido{
+    padding-top: 10%;
+}
 #nombre-y-apellido:hover{
     transform: scale(1.2);
 }

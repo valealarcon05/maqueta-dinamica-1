@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms'
 
 @Component({
@@ -25,22 +25,28 @@ export class LoginComponent implements OnInit{
     return this.loginForm.get('email');
   }
 //métodos de validación de clave//
-  get PasswordValid(){
-    return this.Password?Touch && !this.Password.valid:;
-  }
+get PasswordValid(){
+  return this.Password?.touched && !this.Password?.invalid;
+}
+
 //métodos de validación de email//
   get MailValid(){
-    return this.Mail?.touched && !this.Mail?.valid;
+    return this.Mail?.touched && !this.Mail?.invalid;
   }
 
+  //para que se envie todo el formulario//
   onEnviar(event: Event){
-    event.preventDefault;
+    event.preventDefault();
 
-    if(this.formBuilder.valid){
-      //llamamos al servicio para enviar datos al servidor//
-      alert("Todo salió bien ¡Enviar formulario!")
-    }else{
-      this.formBuilder.markAllAsTouched();
+    if(this.loginForm.invalid){
+      this.loginForm.markAllAsTouched();
+      return;
     }
+      //llamamos al servicio para enviar datos al servidor//
+      alert("No hay una cuenta asociada a tu nombre");
+      
+      if(this.loginForm.valid){
+        
+      }
   }
-  }
+}

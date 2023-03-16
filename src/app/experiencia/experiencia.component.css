@@ -21,11 +21,18 @@ h1{
     width: min-content;
     margin-left: 30%;
 }
-#logoimbecu{
-    width: 30%;
-    margin-left: 50%;
-}
 #flechaup{
     text-decoration: none;
     color: aliceblue;
+}
+#botonup{
+    margin-top: 8%;
+}
+#mundo{
+    text-decoration: none;
+    color: #000;
+}
+#IMBECU-CONICET{
+    width: 30%;
+    margin-left: 40%;
 }
