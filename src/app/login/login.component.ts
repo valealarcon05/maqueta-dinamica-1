@@ -44,9 +44,9 @@ get PasswordValid(){
     }
       //llamamos al servicio para enviar datos al servidor//
       alert("No hay una cuenta asociada a tu nombre");
-      
+
       if(this.loginForm.valid){
-        
+        this.loginForm.markAsTouched();
       }
   }
 }
