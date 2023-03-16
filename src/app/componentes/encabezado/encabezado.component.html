@@ -1,0 +1,154 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/imgs/logo arg prog.png" alt="logo Argentina Programa" class="w=100" id="logoarg"img-fluid>
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/valentina-alarcon-a0b941185"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-brands fa-linkedin"></i></button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/vale_alarcon05/"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-brands fa-instagram"></i></button></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com/valaarcoon/"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-brands fa-square-facebook"></i></button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/valealarcon05"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-brands fa-github"></i></button></a>
+        </li>
+        <!--boton que envía al login-->
+        <li class="nav-item">
+          <a class="nav-link">
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvasLogin" aria-controls="offcanvasLogin">
+            <i class="fa-regular fa-user"></i>
+          </button>
+        </a>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="canvasLogin" aria-labelledby="offcanvasLoginLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasLoginLabel">Ingresar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                  <div class="container text-center">
+                  <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-8 formulario-login">
+                      <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="submit" class="btn btn-secondary">Ingresar</button>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </li>
+        <!--botón que envía al registro-->
+        <li class="nav-item">
+          <a class="nav-link">
+            <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvasRegistro" aria-controls="offcanvasRegistro">
+            Registrate
+          </button>
+        </a>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="canvasRegistro" aria-labelledby="offcanvasRegistroLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRegistroLabel">Registrate</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                  <div class="container text-center">
+                  <div class="row">
+                    <div class="col-2">
+                      
+                    </div>
+                    <div class="col-8 formulario-registro">
+                      <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"></div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="submit" class="btn btn-secondary">Guardar</button>
+                    </div>
+                    <div class="col-2">
+                  
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--presentación-->
+      <div class="banner">
+        <div class="centrado">          
+              <h1 id="Bienvenido">
+                <b>Bienvenido, soy...</b></h1>
+              
+                <h2 id="nombre-y-apellido">Valentina Alarcón</h2>
+                <h3 id="ocupación" class="text-center">Estudiante de Biología
+                  <br>
+                Desarrolladora web full Stack Jr.</h3>
+        </div>
+      </div>
+    <!--acerca de..-->
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col-4">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="indice" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/assets/imgs/foto perfil.png" alt="foto perfil" class="rounded-circle" id="fotoperfil">
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Experiencia">Experiencia</a></li>
+                <li><a class="dropdown-item" href="#Educación">Educación</a></li>
+                <li><a class="dropdown-item" href="#Habilidades">Habilidades</a></li>
+                <ul class="Habilidades">
+                  <li><a class="dropdown-item" href="#HardSkills">Hard Skills</a></li>
+                  <li><a class="dropdown-item" href="#Idiomas">Idiomas</a></li>
+                  <li><a class="dropdown-item" href="#SoftSkills">Soft Skills</a></li>
+                </ul>
+                <li><a class="dropdown-item" href="#Proyectos">Proyectos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-8"> 
+            <h6 id="breve-descripcion">
+            Tengo 23 años. Me apasiona aprender, y poder aplicar los nuevos conocimientos.<br> Actualmente, realizo pasantías en el laboratorio de Inmunología y desarrollo de vacunas en IMBECU-CONICET.<br>Además, estoy desarrollando una web para la empresa Valentine Cocina. 
+          </h6>
+          </div>
+        </div>
+      </div>
