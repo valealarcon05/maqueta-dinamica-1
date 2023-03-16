@@ -1,0 +1,31 @@
+/*experiencia*/
+.Experiencia{
+    background-color: white;
+}
+h1{
+    text-align: left;
+    padding: 5%;
+}
+#logovalentine{
+    width: min-content;
+    margin-left: 40%;
+}
+#logoinstagram1{
+    text-decoration: none;
+    color: #000;
+}
+#logowhatsapp{
+    color: #000;
+}
+#fotoconsultas{
+    width: min-content;
+    margin-left: 30%;
+}
+#logoimbecu{
+    width: 30%;
+    margin-left: 50%;
+}
+#flechaup{
+    text-decoration: none;
+    color: aliceblue;
+}

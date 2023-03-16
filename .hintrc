@@ -27,6 +27,13 @@
       {
         "duplicate-id-aria": "off"
       }
-    ]
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
