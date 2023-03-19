@@ -9,12 +9,12 @@ import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
-  {path:'', component: EncabezadoComponent},
+  {path:'encabezado', component: EncabezadoComponent},
   {path:'experiencia', component: ExperienciaComponent},
   {path:'educacion', component: EducacionComponent},
   {path:'habilidades', component: HabilidadesComponent},
   {path:'proyectos', component: ProyectosComponent},
-  {path:'', component: FooterComponent}
+  {path:'footer', component: FooterComponent}
 ];
 
 @NgModule({
