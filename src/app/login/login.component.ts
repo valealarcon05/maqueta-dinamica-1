@@ -14,7 +14,11 @@ export class LoginComponent implements OnInit{
       password: [ '', [Validators.required, Validators.minLength(8)]],
     });
   }
-  ngOnInit(){}
+  ngOnInit(): void{
+
+  }
+
+  nombre = 'Valentina Alarcón'
 //métodos para el formulario//
 //toma el dato de clave//
   get Password(){

@@ -24,6 +24,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { IndexComponent } from './index/index.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { IndexComponent } from './index/index.component';
     LoginComponent,
     NavegacionComponent,
     AdminComponent,
-    IndexComponent
+    IndexComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

@@ -9,56 +9,7 @@
 #logoarg{
     width: 50%;
 }
-#bienvenido{
-    text-align: center;
-    vertical-align: auto;
-    animation: alternate;
-}
-/*banner*/
-.banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/imgs/bannerpng.png);
-    background-size: cover;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    height: 70vh;
-}
-#Bienvenido{
-    padding-top: 10%;
-}
-#nombre-y-apellido:hover{
-    transform: scale(1.2);
-}
-#ocupación:hover{
-    transform: scale(1.2);
-}
-/*foto perfil*/
-#fotoperfil{
-    width: 100%;
-    height: 100%;
-}
-#indice{
-    height: 20vh;
-    background-color: rgb(209, 209, 223);
-    overflow: relative;
-    border-style: rgb(209, 209, 223);
-    animation: ease-in-out 10ms ease 1ms infinite normal forwards;
-    margin-top: -10%;
-}
-.centrado{
-    color:rgb(209, 209, 223);
-}
-section.presentacion{
-    background-color: aliceblue;
-}
-/*descripción foto perfil*/
-#acerca-de{
-    margin-top: 5%;
-    text-align: center;
-    font-size: medium;
-    font-style: oblique;
-}
+
 /*login*/
 .login{
     height: 70vh;
@@ -73,13 +24,4 @@ section.presentacion{
 #footerDashboard{
     position: relative;
     padding-bottom: 1%;
-}
-#acercade{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Assets/imgs/bannerpng.png);
-    background-size: cover;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    height: 70vh;
 }
